@@ -10,7 +10,8 @@ function whisper(string)
 
 function logShout(string)
 {
-  
+  var stringHolder = console.log();
+  stringHolder.toUpperCase();
 }
 
 function logWhisper(string)
